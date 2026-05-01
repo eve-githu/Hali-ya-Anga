@@ -3,10 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
+    <link rel="stylesheet" href="src/index.css" />
   </head>
   <body>
-    <div>
+    <div class="weather-app">
       <form>
         <input type="text" placeholder="Enter a city..." />
         <input type="submit" value="Search" />
@@ -17,17 +26,17 @@
         <br />
         Humidity: 66%, Wind: 3.13km/h
       </p>
+      <div>🌤️ 12°C</div>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/eve-githu" target="_blank">Eve Githu</a> 🇰🇪
+        and is open sourced on
+        <a
+          href="https://github.com/eve-githu?tab=repositories&q=&type=&language=&sort="
+          >GitHub</a
+        >
+        and hosted on Netlify
+      </footer>
     </div>
-    <div>🌤️ 12°C</div>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/eve-githu" target="_blank">Eve Githu</a> 🇰🇪
-      and is open sourced on
-      <a
-        href="https://github.com/eve-githu?tab=repositories&q=&type=&language=&sort="
-        >GitHub</a
-      >
-      and hosted on Netlify
-    </footer>
   </body>
 </html>
