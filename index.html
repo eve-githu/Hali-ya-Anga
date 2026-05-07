@@ -17,14 +17,19 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="text" placeholder="Enter a city..." class="city-input" />
+        <form id="search-form">
+          <input
+            type="text"
+            placeholder="Enter a city..."
+            class="city-input"
+            id="search-form-input"
+          />
           <input type="submit" value="Search" class="city-input-value" />
         </form>
       </header>
       <div class="weather-data">
         <div>
-          <h1>Nairobi</h1>
+          <h1 id="city">Nairobi</h1>
           <p>
             Tuesday 14:49, scattered clouds
             <br />
@@ -48,5 +53,6 @@
         and hosted on Netlify
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
